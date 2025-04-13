@@ -31,6 +31,7 @@ UI
 
 Sensor Needs
 - Microphone
+- Speaker
 - 
 
 # Copied Below from Wiki
