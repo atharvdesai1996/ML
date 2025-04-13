@@ -23,8 +23,9 @@ AI/ML
 
 To entertain baby
 - Button to play default songs or fed/selected by parents through app
-- Play lullaby
+- Play lullaby, white noise or soothing sounds
 - Some basic words for early development
+- Based on baby cry, LED light to calm the baby
 
 UI
 - App to control and feedback baby's name, feedback, select songs liked by parents
