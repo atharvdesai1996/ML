@@ -11,7 +11,26 @@ This repository showcases exciting **TinyML projects** powered by **Edge Impulse
 
 Whether you're a beginner or an expert, dive in to **learn, experiment, and contribute** to the future of TinyML! 🚀
 
-Copied from Wiki
+# Project Overview
+
+Features :-
+
+AI/ML
+- Baby is crying - Ambient sound to calm the baby
+- Baby is cry/making sounds in a way that it is hungry - say "looks like baby X is hungry"
+- Burp sounds - Need water
+- Take feedback to update/train more sounds asking if baby was hungry or just cranky
+
+To entertain baby
+- Button to play default songs or fed/selected by parents through app
+- Play lullaby
+
+UI
+- App to control and feedback baby's name, feedback, select songs liked by parents
+
+
+# Copied Below from Wiki
+
 # Espressif ESP-EYE (ESP32)
 It is a compact development board based on Espressif's ESP32 chip, equipped with a 2-Megapixel camera and a microphone.
 
@@ -101,7 +120,7 @@ Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
 </body>
 </html>
 
-Resource Links
+# Resource Links
 Edge Impulse - https://docs.edgeimpulse.com/docs/run-inference/arduino-library
 ML Expert Projects - https://docs.edgeimpulse.com/experts
 Open Source FW ESP32 Eye - https://github.com/edgeimpulse/firmware-espressif-esp32/blob/main/README.md
