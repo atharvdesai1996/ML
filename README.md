@@ -31,7 +31,7 @@ UI
 - App to control and feedback baby's name, feedback, select songs liked by parents
 
 Hardware Req
-- Battery Operated
+- Battery Operated. Power Req?
 - Microphone
 - Speaker
 - BLE
