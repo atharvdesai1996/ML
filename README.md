@@ -24,10 +24,14 @@ AI/ML
 To entertain baby
 - Button to play default songs or fed/selected by parents through app
 - Play lullaby
+- Some basic words for early development
 
 UI
 - App to control and feedback baby's name, feedback, select songs liked by parents
 
+Sensor Needs
+- Microphone
+- 
 
 # Copied Below from Wiki
 
