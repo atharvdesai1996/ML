@@ -100,3 +100,8 @@ Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
 </body></html><!--EndFragment-->
 </body>
 </html>
+
+Resource Links
+Edge Impulse - https://docs.edgeimpulse.com/docs/run-inference/arduino-library
+ML Expert Projects - https://docs.edgeimpulse.com/experts
+Open Source FW ESP32 Eye - https://github.com/edgeimpulse/firmware-espressif-esp32/blob/main/README.md
