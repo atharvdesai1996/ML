@@ -30,10 +30,11 @@ To entertain baby
 UI
 - App to control and feedback baby's name, feedback, select songs liked by parents
 
-Sensor Needs
+Hardware Req
+- Battery Operated
 - Microphone
 - Speaker
-- 
+- BLE
 
 # Copied Below from Wiki
 
