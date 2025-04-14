@@ -20,6 +20,7 @@ AI/ML
 - Baby is cry/making sounds in a way that it is hungry - say "looks like baby X is hungry"
 - Burp sounds - Need water
 - Take feedback to update/train more sounds asking if baby was hungry or just cranky
+- Baby Therapy
 
 To entertain baby
 - Button to play default songs or fed/selected by parents through app
