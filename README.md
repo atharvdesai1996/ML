@@ -1,4 +1,4 @@
-# TinyML Projects with Edge Impulse 🚀  
+# TinyML Projects with Edge Impuls 🚀  
 
 This repository showcases exciting **TinyML projects** powered by **Edge Impulse**, bringing **machine learning to microcontrollers and edge devices**. From **gesture recognition** to **predictive maintenance**, we explore real-world applications of **low-power AI** using **embedded sensors and optimized ML models**.  
 
