@@ -11,23 +11,32 @@ This repository showcases exciting **TinyML projects** powered by **Edge Impulse
 
 Whether you're a beginner or an expert, dive in to **learn, experiment, and contribute** to the future of TinyML! 🚀
 
-# Project Overview
+# Project Overview - Plant Based Monitoring System
 
 Features :-
 
 AI/ML
-
+- Update the plant watering interval based on data from internet or plant name input from the user
+- Change NPK settings based on data from internet or plant name input from the user
 
 UI
-- App to control 
+- LCD to display plant feelings from sensor
+- App to take pictures and fetch data from internet
 
 Hardware Req
+- Low cost board with following features
+    - LCD interface pins
+    - sensor pins
+    - wifi connection for internet access
+    - BLE ?
+- LCD
+- Soil moisture sensor
+- NPK sensor
+- cloud access
+- App on mobile phone
+
+Any other constraints/limitations?
 - 
-
-# Copied Below from Wiki
-
-# Espressif ESP-EYE (ESP32)
-It is a compact development board based on Espressif's ESP32 chip, equipped with a 2-Megapixel camera and a microphone.
 
 Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/espressif-esp32
 
@@ -79,18 +88,11 @@ https://docs.edgeimpulse.com/docs/edge-ai-hardware/gpu/nvidia-jetson
 
 Component | Cost per Unit
 -- | -- 
-ESP-EYE 32 (for edge vision tasks) | $20 - $30
 Jetson Nano (for real-time defect detection) | $200 - $350
 Industrial Camera (for high-quality defect detection) | $150 - $500
 Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
 
 <h2> MCU Features </h2>
-<h3>ESP-EYE 32 (Basic Vision Edge Processing)</h3>
-<ul>
-    <li> Low power consumption, built-in camera, basic image recognition.</li>
-    <li> Not suitable for complex ML models, limited processing power.</li>
-    <li> Can be used for <strong>pre-filtering images</strong> (e.g., detecting if a bottle is present or missing).</li>
-</ul>
 
 <h3>Jetson Nano (Main AI Processing Unit)</h3>
 <ul>
@@ -101,4 +103,4 @@ Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
 # Resource Links
 Edge Impulse - https://docs.edgeimpulse.com/docs/run-inference/arduino-library
 ML Expert Projects - https://docs.edgeimpulse.com/experts
-Open Source FW ESP32 Eye - https://github.com/edgeimpulse/firmware-espressif-esp32/blob/main/README.md
+
