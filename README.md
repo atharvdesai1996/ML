@@ -1,4 +1,4 @@
-# TinyML Projects with Edge Impuls 🚀  
+# TinyML Projects with Edge Impulse 🚀  
 
 This repository showcases exciting **TinyML projects** powered by **Edge Impulse**, bringing **machine learning to microcontrollers and edge devices**. From **gesture recognition** to **predictive maintenance**, we explore real-world applications of **low-power AI** using **embedded sensors and optimized ML models**.  
 
@@ -16,26 +16,13 @@ Whether you're a beginner or an expert, dive in to **learn, experiment, and cont
 Features :-
 
 AI/ML
-- Baby is crying - Ambient sound to calm the baby
-- Baby is cry/making sounds in a way that it is hungry - say "looks like baby X is hungry"
-- Burp sounds - Need water
-- Take feedback to update/train more sounds asking if baby was hungry or just cranky
-- Baby Therapy
 
-To entertain baby
-- Button to play default songs or fed/selected by parents through app
-- Play lullaby, white noise or soothing sounds
-- Some basic words for early development
-- Based on baby cry, LED light to calm the baby
 
 UI
-- App to control and feedback baby's name, feedback, select songs liked by parents
+- App to control 
 
 Hardware Req
-- Battery Operated. Power Req?
-- Microphone
-- Speaker
-- BLE
+- 
 
 # Copied Below from Wiki
 
@@ -46,23 +33,13 @@ Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/e
 
 ### Applications
 ## Object Detection (Basic TinyML Models)
-Use case: Smart surveillance, industrial automation, object tracking.
-* Can run lightweight MobileNet-based models for simple object detection.
-* Limited by RAM, so must use quantized models (INT8 or FLOAT16).
-* Works best for recognizing a small set of objects in controlled environments.
+* 
 
 ## Gesture & Motion Recognition
-Use case: Smart control interfaces, gesture-based automation.
-* Uses ESP32’s accelerometer (if added externally) for gesture-based control.
-* Runs classification models trained on motion sensor data (e.g., TinyML LSTMs, k-NN).
-* Example: Recognizing hand gestures to control IoT devices.
+*
 
 ### Tools & Frameworks for ML on ESP-EYE:
-* ESP-WHO (Face detection & recognition).
-* ESP-Skainet (Voice wake-up & recognition).
-* TensorFlow Lite for Microcontrollers (TFLM).
-* Edge Impulse (ML model training & deployment).
-* uTensor / MicroTVM (TinyML inference).
+* 
 
 ***
 
@@ -120,13 +97,6 @@ Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
     <li> Can run <strong>deep learning models</strong> (CNNs, YOLO, TensorFlow, PyTorch, OpenCV).</li>
     <li> Detects <strong>defects like cracks, misaligned caps, improper labeling</strong>, etc.</li>
 </ul>
-
-<hr>
-<h2>Conclusion</h2>
-<p>For an <strong>industrial automation defect detection system</strong>, the <strong>ESP-EYE 32</strong> is useful for simple edge tasks, but the <strong>Jetson Nano</strong> is the primary AI processor.</p>
-</body></html><!--EndFragment-->
-</body>
-</html>
 
 # Resource Links
 Edge Impulse - https://docs.edgeimpulse.com/docs/run-inference/arduino-library
