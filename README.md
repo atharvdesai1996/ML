@@ -27,7 +27,7 @@ Hardware Req
 - Low cost board with following features
     - LCD interface pins
     - sensor pins
-    - wifi connection for internet access
+    - wifi connection for remote operation of the system
     - BLE ?
 - LCD
 - Soil moisture sensor
