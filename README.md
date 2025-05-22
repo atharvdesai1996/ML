@@ -29,6 +29,7 @@ Hardware Req
     - sensor pins
     - wifi connection for remote operation of the system
     - BLE ?
+- Battery to power the MCU
 - LCD
 - Soil moisture sensor
 - NPK sensor
