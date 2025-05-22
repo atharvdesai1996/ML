@@ -20,7 +20,7 @@ AI/ML
 - Change NPK settings based on data from internet or plant name input from the user
 
 UI
-- LCD to display plant feelings from sensor
+- LCD to display plant emotions from sensor
 - App to take pictures and fetch data from internet
 
 Hardware Req
