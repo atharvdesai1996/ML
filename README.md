@@ -105,3 +105,8 @@ Connectivity (Wi-Fi/Ethernet Modules) | $10 - $30
 Edge Impulse - https://docs.edgeimpulse.com/docs/run-inference/arduino-library
 ML Expert Projects - https://docs.edgeimpulse.com/experts
 
+
+# Coursera
+
+![image](https://github.com/user-attachments/assets/c9dd5fac-add1-46df-81bf-5cc01e733cfc)
+
