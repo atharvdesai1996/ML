@@ -43,10 +43,16 @@ Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/e
 
 ## Use Cases
 ### LCD based interface soil moisture monitoring
-* 
+* Local LCD capturing plant emotions
+* Pros -
+* Cons -
 
 ### Remote App based Operation
-*
+* Wifi based
+* No need for LCD
+* Pros
+* Cons - need to be in proximity of wifi
+
 
 ### ESP32WROOM Interfacing with Sensors & LCD:
 
