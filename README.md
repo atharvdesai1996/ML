@@ -41,11 +41,11 @@ Any other constraints/limitations?
 
 Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/espressif-esp32
 
-### Use Cases
-## LCD based interface soil moisture monitoring
+## Use Cases
+### LCD based interface soil moisture monitoring
 * 
 
-## Remote App based Operation
+### Remote App based Operation
 *
 
 ### ESP32WROOM Interfacing with Sensors & LCD:
@@ -80,7 +80,7 @@ But "ESP32 Dev Module" is a generic dev board profile compatible with most WROOM
 
 https://docs.edgeimpulse.com/docs/edge-ai-hardware/gpu/nvidia-jetson
 
-## System Design Questions for Jetson Nano & TinyML
+## System Design Questions
 
 ### 1️⃣ Detecting Defects in Manufacturing  
 **Could a TinyML model running on Jetson Nano be used to detect defects in manufacturing using a low-power camera? What would be the key considerations?**  
@@ -89,19 +89,7 @@ https://docs.edgeimpulse.com/docs/edge-ai-hardware/gpu/nvidia-jetson
 - Data preprocessing: Filtering, noise reduction  
 - Deployment constraints: Latency, memory usage  
 
-### 2️⃣ Power Optimization for Battery-Powered Applications  
-**If we want to use Jetson Nano for a battery-powered TinyML application, what power optimization techniques would you recommend?**  
-- Use **Jetson Nano power modes** (`10W`, `5W`, `MAXN`)  
-- Enable **dynamic frequency scaling (DVFS)**  
-- Use **efficient deep learning models (quantization, pruning)**  
-- Turn off unused peripherals (HDMI, USB)  
 
-### 3️⃣ Debugging TinyML Performance on Jetson Nano  
-**What debugging tools would you recommend for profiling TinyML performance on Jetson Nano?**  
-- **NVIDIA Jetson Stats (`jtop`)** → Monitor CPU, GPU, power usage  
-- **TensorRT Profiler** → Optimize and debug AI inference  
-- **NVIDIA Nsight** → Profiling tool for CUDA & Deep Learning  
-- **TegraStats (`tegrastats`)** → Monitors real-time system performance  
 
 ***
 
