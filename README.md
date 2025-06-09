@@ -41,11 +41,11 @@ Any other constraints/limitations?
 
 Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/espressif-esp32
 
-### Applications
-## Object Detection (Basic TinyML Models)
+### Use Cases
+## LCD based interface soil moisture monitoring
 * 
 
-## Gesture & Motion Recognition
+## Remote App based Operation
 *
 
 ### ESP32WROOM Interfacing with Sensors & LCD:
