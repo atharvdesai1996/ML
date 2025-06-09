@@ -72,6 +72,7 @@ But "ESP32 Dev Module" is a generic dev board profile compatible with most WROOM
 * https://learn.sparkfun.com/tutorials/pic-based-serial-enabled-character-lcd-hookup-guide/all#example-code
 * https://learn.sparkfun.com/tutorials/pic-based-serial-enabled-character-lcd-hookup-guide/all#troubleshooting
 * https://learn.sparkfun.com/tutorials/basic-character-lcd-hookup-guide/all
+* https://www.sparkfun.com/basic-16x2-character-lcd-rgb-backlight-5v.html
 
 ***
 
