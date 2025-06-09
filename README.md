@@ -48,8 +48,30 @@ Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/e
 ## Gesture & Motion Recognition
 *
 
-### Tools & Frameworks for ML on ESP-EYE:
-* 
+### ESP32WROOM Interfacing with Sensors & LCD:
+
+## ESP32 set up in Arduino
+Correct Board Selection for ESP-WROOM-32
+In Arduino IDE, choose:
+Tools → Board → ESP32 Dev Module
+This is the most compatible and commonly used board definition for ESP-WROOM-32 modules.
+🔧 Steps to Set Up:
+Install ESP32 Board Support (if not done yet):
+Go to File → Preferences
+In "Additional Boards Manager URLs", add:
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Then go to Tools → Board → Boards Manager
+Search for ESP32 and install the "esp32 by Espressif Systems" package
+Select Board:
+Go to Tools → Board → ESP32 Dev Module
+Quick Tip:
+The ESP-WROOM-32 is the name of the module, not the dev board.
+But "ESP32 Dev Module" is a generic dev board profile compatible with most WROOM-based boards like DOIT, TTGO, etc.
+
+## With LCD
+* https://learn.sparkfun.com/tutorials/pic-based-serial-enabled-character-lcd-hookup-guide/all#example-code
+* https://learn.sparkfun.com/tutorials/pic-based-serial-enabled-character-lcd-hookup-guide/all#troubleshooting
+* https://learn.sparkfun.com/tutorials/basic-character-lcd-hookup-guide/all
 
 ***
 
