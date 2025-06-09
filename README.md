@@ -49,7 +49,7 @@ Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/e
 
 ### Remote App based Operation
 * Wifi based
-* No need for LCD
+* No need for LCD (high power consumption on end device)
 * Pros
 * Cons - need to be in proximity of wifi
 
