@@ -1,0 +1,57 @@
+#define LCD_TX_PIN 17   // ESP32 GPIO17 (TX) → SerLCD RX
+#define LED_PIN 2       // Onboard LED (GPIO2)
+
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+  Serial2.begin(9600, SERIAL_8N1, -1, LCD_TX_PIN); // Default SerLCD baud
+  delay(1000);  // Wait for SerLCD boot
+
+  // Blink LED 3 times (confirm ESP32 is running)
+  blinkLED(3, 200);
+
+  // ===== TEST 1: Turn display OFF (should see screen blank) =====
+  Serial2.write(0xFE);  // Command prefix
+  Serial2.write(0x08);  // Display OFF (0x08)
+  delay(2000);  // Observe LCD
+
+  // ===== TEST 2: Turn display ON + clear screen =====
+  Serial2.write(0xFE);  
+  Serial2.write(0x0C);  // Display ON (0x0C)
+  Serial2.write(0xFE);  
+  Serial2.write(0x01);  // Clear screen (0x01)
+  delay(1000);
+
+  // ===== TEST 3: Write text to Line 1 =====
+
+
+  // ===== TEST 5: Adjust backlight (30 levels) =====
+  for (int i = 0x80; i <= 0x9D; i++) { // 0x80=OFF, 0x9D=max
+    Serial2.write(0x7C);  // Backlight control prefix
+    Serial2.write(i);     // Set brightness level
+    delay(500);
+  }
+}
+
+void loop() {
+  // Happy face
+  Serial2.write(0xFE);  
+  Serial2.write(0xC0);  // Move to Line 2
+  Serial2.print("^_^         ");  // Extra spaces to clear previous
+  delay(5000);
+  
+  // Sad face
+  Serial2.write(0xFE);  
+  Serial2.write(0xC0);  // Move to Line 2
+  Serial2.print("T_T         ");
+  delay(5000);
+}
+
+// Helper: Blink LED 'count' times
+void blinkLED(int count, int delay_ms) {
+  for (int i = 0; i < count; i++) {
+    digitalWrite(LED_PIN, HIGH);
+    delay(delay_ms);
+    digitalWrite(LED_PIN, LOW);
+    delay(delay_ms);
+  }
+}
