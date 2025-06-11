@@ -53,6 +53,14 @@ Mcu Edge AI Interface - https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/e
 * Pros
 * Cons - need to be in proximity of wifi
 
+### BLE based Flowchart
+
+To create a low-power ESP32-based smart plant monitor with app integration for plant-specific thresholds, here's a streamlined solution
+
+
+![image](https://github.com/user-attachments/assets/f1b4b94f-eb81-4b67-8ee9-159c7169c30b)
+ 
+
 
 ### ESP32WROOM Interfacing with Sensors & LCD:
 
